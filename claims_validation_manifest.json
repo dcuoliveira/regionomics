@@ -1,5 +1,5 @@
 {
-  "validated_at": "2026-07-07T08:20:32.110391",
+  "validated_at": "2026-07-08T21:02:51.494930",
   "source": "FRED/ALFRED api.stlouisfed.org \u2014 series {ABBR}CCLAIMS, {ABBR}ICLAIMS, CCNSA",
   "vintage_params": {
     "realtime_start": "1776-07-04",
@@ -8,30 +8,30 @@
   },
   "files": {
     "claims_vintage_first_release.csv": {
-      "sha256": "8652317b8e781e8283c6670c3349c888f0ee4895061cea9391a942e18b6807d4",
-      "rows": 84148
+      "sha256": "d2131d99a72b392f081880e07a19e2bd6b993df6f7aacb9d4071517d19b1302c",
+      "rows": 84248
     },
     "claims_current_history.csv": {
-      "sha256": "c31aec729507ec700ec49f71f8cee95a73a50dc614b36548d848d312a90ca582",
-      "rows": 214807
+      "sha256": "331e9f464a23ff33e6336432a6766e4e3bc21406c8a1d77d2ae668486f027d30",
+      "rows": 214909
     },
     "claims_pit_features.csv": {
-      "sha256": "4d7abb21a38e9c8ac357de3fc96b3a2d3681775491ff685a003f21cfb25d574a",
-      "rows": 41667
+      "sha256": "5d96a87bf1a6f11dff793d38c6577dd3d6fcb262e912db7749f14cedfe3cd028",
+      "rows": 41718
     }
   },
   "data_ranges": {
     "current_history": [
       "1986-01-04",
-      "2026-06-20"
+      "2026-06-27"
     ],
     "vintage_window": [
       "2010-09-16",
-      "2026-06-26"
+      "2026-07-07"
     ],
     "pit_panel": [
       "2010-11-05",
-      "2026-06-26"
+      "2026-07-03"
     ]
   }
 }

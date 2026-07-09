@@ -1,0 +1,37 @@
+{
+  "validated_at": "2026-07-08T21:01:52.312545",
+  "source": "FRED/ALFRED - series {ABBR}NA (SA total nonfarm), {ABBR}NAN (NSA), PAYEMS",
+  "vintage_params": {
+    "realtime_start": "1776-07-04",
+    "realtime_end": "9999-12-31",
+    "output_type": 4
+  },
+  "files": {
+    "nfp_vintage_first_release.csv": {
+      "sha256": "878dea064d00badb4744ac2be2d0ad7fb3ffb08e20c010ba1ff6f9ccd51e0681",
+      "rows": 11796
+    },
+    "nfp_current_history.csv": {
+      "sha256": "c9b51e8c160ad56dba9ce943e1c407e71306d4bf302fc144127e5baa9259fe6f",
+      "rows": 44574
+    },
+    "nfp_pit_features.csv": {
+      "sha256": "95cd18dc427fe3dccdf21850e15c319319dbba7e6446dff7f9be046854d039a1",
+      "rows": 11133
+    }
+  },
+  "data_ranges": {
+    "current_history": [
+      "1990-01-01",
+      "2026-05-01"
+    ],
+    "vintage_window": [
+      "2005-07-22",
+      "2026-06-23"
+    ],
+    "pit_panel": [
+      "2006-08-01",
+      "2026-06-01"
+    ]
+  }
+}

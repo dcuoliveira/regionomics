@@ -1,0 +1,37 @@
+{
+  "validated_at": "2026-07-08T21:01:13.124201",
+  "source": "FRED/ALFRED - series {ABBR}UR (SA U3 rate), {ABBR}LF (labor force), UNRATE",
+  "vintage_params": {
+    "realtime_start": "1776-07-04",
+    "realtime_end": "9999-12-31",
+    "output_type": 4
+  },
+  "files": {
+    "ur_vintage_first_release.csv": {
+      "sha256": "20b3df686766ac7e7000bcb30119600ce22f8e06a8aba6bb126a648d1e9e5889",
+      "rows": 11745
+    },
+    "ur_current_history.csv": {
+      "sha256": "365865dfa20ca64ef6214ad780fdd4ea6de1ef530ef8e7e98f3ad2d716daf19f",
+      "rows": 61608
+    },
+    "ur_pit_features.csv": {
+      "sha256": "73af411d72dfcc5e8ff9f1d854a29373f5d9c0ae7d4c476c22b06a09470b24ad",
+      "rows": 11133
+    }
+  },
+  "data_ranges": {
+    "current_history": [
+      "1976-01-01",
+      "2026-05-01"
+    ],
+    "vintage_window": [
+      "2005-07-22",
+      "2026-06-23"
+    ],
+    "pit_panel": [
+      "2006-08-01",
+      "2026-06-01"
+    ]
+  }
+}
